@@ -1,0 +1,335 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1082118537323328864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1082118537323328867}
+  m_Layer: 0
+  m_Name: Muzzle
+  m_TagString: Weapon
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1082118537323328867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082118537323328864}
+  m_LocalRotation: {x: -0, y: 0.7071065, z: -0, w: 0.7071072}
+  m_LocalPosition: {x: 0.33, y: 0.137, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 616654974325064710}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1082118538270822431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1082118538270822430}
+  m_Layer: 0
+  m_Name: Glock18
+  m_TagString: Weapon
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1082118538270822430
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082118538270822431}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.102, y: -0.077, z: 0.307}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 616654974325064710}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1082118538034088383
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 616654974325064710}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: da95e882dd981014d96db475261fc4e2, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da95e882dd981014d96db475261fc4e2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.2782
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da95e882dd981014d96db475261fc4e2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1436
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da95e882dd981014d96db475261fc4e2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da95e882dd981014d96db475261fc4e2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9872531
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da95e882dd981014d96db475261fc4e2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da95e882dd981014d96db475261fc4e2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da95e882dd981014d96db475261fc4e2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.15915813
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da95e882dd981014d96db475261fc4e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da95e882dd981014d96db475261fc4e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: da95e882dd981014d96db475261fc4e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da95e882dd981014d96db475261fc4e2, type: 3}
+      propertyPath: m_Name
+      value: Glock 15 Magazine
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da95e882dd981014d96db475261fc4e2, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: da95e882dd981014d96db475261fc4e2, type: 3}
+--- !u!1001 &1082118538885522413
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1082118538270822430}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071066
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710707
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6985329673527284994, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.033
+      objectReference: {fileID: 0}
+    - target: {fileID: -6985329673527284994, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.032
+      objectReference: {fileID: 0}
+    - target: {fileID: -6985329673527284994, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: -6985329673527284994, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7070807
+      objectReference: {fileID: 0}
+    - target: {fileID: -6985329673527284994, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.70708066
+      objectReference: {fileID: 0}
+    - target: {fileID: -6985329673527284994, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0060721315
+      objectReference: {fileID: 0}
+    - target: {fileID: -6985329673527284994, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0060721613
+      objectReference: {fileID: 0}
+    - target: {fileID: -6985329673527284994, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.984
+      objectReference: {fileID: 0}
+    - target: {fileID: -6985329673527284994, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -6985329673527284994, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 288290950151358490, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.021584796
+      objectReference: {fileID: 0}
+    - target: {fileID: 288290950151358490, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.13979594
+      objectReference: {fileID: 0}
+    - target: {fileID: 288290950151358490, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.02544679
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_Name
+      value: Glock 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6371590545416495573, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6619225641134156614, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+--- !u!1 &271654972329811644 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+  m_PrefabInstance: {fileID: 1082118538885522413}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &616654974325064710 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6615399af6d18554a8d27452e1f3d0a2, type: 3}
+  m_PrefabInstance: {fileID: 1082118538885522413}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1082118538885522409
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271654972329811644}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1082118538885522411
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271654972329811644}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5446789, y: 0.32827598, z: 0.057258993}
+  m_Center: {x: -0.09229206, y: 0, z: -0.000000029802322}
+--- !u!95 &1082118538885522414
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271654972329811644}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b67bf89db8c643a49b71e005db310e47, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1082118538885522408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271654972329811644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ff24995ece7a744ad6d11f65e34470, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  is_automatic: 0
+  can_fire: 1
+  is_reloading: 0
+  str_gun_name: Glock-18
+  gun_name: {fileID: 0}
+  Magazine: {fileID: 0}
+  rate_of_fire: 0.1
+  current_rpm: 0
+  reload_speed: 1
+  current_reloading: 0
+  projectile_velocity: 100
+  projectile_amount: 1
+  projectile_damage: 30
+  magazine_capacity: 18
+  current_magazine_size: 0
+  rb: {fileID: 1082118538885522409}
+  muzzle_pos: {fileID: 1082118537323328867}
+  bullet: {fileID: 5346571782970079934, guid: bb627a55869d2c647b620ea7494986fa, type: 3}
+  animator: {fileID: 1082118538885522414}
+  tf_weapon: {fileID: 0}
